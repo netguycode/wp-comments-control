@@ -4,7 +4,7 @@ Plugin Name: Comments Control
 Plugin URI: http://premium.wpmudev.org/project/comments-control
 Description: Fine tune comment throttling
 Author: S H Mohanjith (Incsub)
-Version: 1.0.0
+Version: 1.0.1
 Network: true
 Author URI: http://premium.wpmudev.org
 WDP ID: 260
