@@ -3,7 +3,7 @@
 Plugin Name: Comments Control
 Plugin URI: http://premium.wpmudev.org/project/comments-control
 Description: Fine tune comment throttling
-Author: S H Mohanjith (Incsub)
+Author: WPMU DEV
 Version: 1.0.1
 Network: true
 Author URI: http://premium.wpmudev.org
@@ -12,6 +12,7 @@ WDP ID: 260
 
 /*
 Copyright 2007-2011 Incsub, (http://incsub.com)
+Author - S H Mohanjith (Incsub)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
