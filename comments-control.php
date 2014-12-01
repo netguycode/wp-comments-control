@@ -4,7 +4,7 @@ Plugin Name: Comments Control
 Plugin URI: http://premium.wpmudev.org/project/comments-control
 Description: Fine tune comment throttling
 Author: WPMU DEV
-Version: 1.0.1
+Version: 1.0.1.1
 Network: true
 Author URI: http://premium.wpmudev.org
 WDP ID: 260
@@ -37,7 +37,7 @@ function limit_comments_flood_filter($flood_die, $time_lastcomment, $time_newcom
     
     if (intval($user_id) > 0) {
         return false;
-    } else if (trim(get_site_option('limit_comments_allowed_ips')) != '' || trim(get_site_option('limit_comments_allowed_ips')) != '') {
+    } else if (trim(get_site_option('limit_comments_allowed_ips')) != '' || trim(get_site_option('limit_comments_denied_ips')) != '') {
         $_remote_addr = isset($_SERVER['HTTP_X_FORWARDED_FOR'])?$_SERVER['HTTP_X_FORWARDED_FOR']:$_SERVER['REMOTE_ADDR'];
         $_remote_addr = preg_replace('/\./', '\.', $_remote_addr);
         if (preg_match('/'.$_remote_addr.'/i', get_site_option('limit_comments_allowed_ips')) > 0) {
