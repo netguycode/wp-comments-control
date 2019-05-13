@@ -2,7 +2,14 @@
 
 **INACTIVE NOTICE: This plugin is unsupported by WPMUDEV, we've published it here for those technical types who might want to fork and maintain it for their needs.**
 
-## Comments Control removes the frustration of losing comments that are published back-to-back from the same location.
+## Translations
+
+Translation files can be found at https://github.com/wpmudev/translations
+
+
+## Usage
+
+Comments Control removes the frustration of losing comments that are published back-to-back from the same location.
 
 Eliminate spam, maintain security and stop real users from getting the, 'You are posting comments too quickly. Slow down.' message. 
 
